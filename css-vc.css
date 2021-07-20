@@ -1,0 +1,41 @@
+.body{
+    --pri:hsla(0, 0%, 99%, 0.699);
+    --sec:hsla(0, 6%, 93%, 0.637);
+    background: linear-gradient(135deg,var(--pri),var(--sec)),
+    url('./images/flaticon-svg/svg/view_customers.jpg') no-repeat center center/cover;
+          }
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 1000px;
+    box-shadow: 0 0 20px rgba(228, 202, 202, 0.15);
+    
+}
+.styled-table thead tr {
+    background-color: #a86d77de;
+    color: #f8f7f7;
+    text-align: center;
+    text-size-adjust: ;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    text-align: center;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #a86d77de;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #f4c8c8;
+}
